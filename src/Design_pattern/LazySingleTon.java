@@ -1,14 +1,14 @@
 package Design_pattern;
 
 //Lazy implementation
-public class SingleTon1{
-    private static SingleTon1 instance;
+public class LazySingleTon {
+    private static LazySingleTon instance;
 
-    private SingleTon1(){};
+    private LazySingleTon(){};
 
-    public static SingleTon1 getInstance(){
+    public static LazySingleTon getInstance(){
         if(instance==null)
-            instance=new SingleTon1();
+            instance=new LazySingleTon();
         return instance;
     }
 }

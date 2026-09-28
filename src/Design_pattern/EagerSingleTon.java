@@ -2,13 +2,13 @@ package Design_pattern;
 
 // Basic Implementation of SingleTon Design Pattern
 //Eager implementation
-public class SingleTon {
+public class EagerSingleTon {
 
-    private static SingleTon instance;
+    private static EagerSingleTon instance;
 
-    private SingleTon(){}
+    private EagerSingleTon(){}
 
-    public static SingleTon getInstance(){
+    public static EagerSingleTon getInstance(){
         return instance;
     }
 }
